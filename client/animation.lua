@@ -79,7 +79,6 @@ function DoPhoneAnimation(anim)
 
     checkAnimLoop()
 
-    -- Anim dict opschonen wanneer animatie stopt
     CreateThread(function()
         while PhoneData.AnimationData.lib do
             Wait(500)
