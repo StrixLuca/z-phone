@@ -3,13 +3,13 @@ local phoneModel = joaat("prop_npc_phone_02")
 
 local function loadAnim(dict)
     if not lib.requestAnimDict(dict, 10000) then
-        error(("Anim dict '%s' kon niet geladen worden"):format(dict))
+        error(("Animation dictionary '%s' could not be loaded"):format(dict))
     end
 end
 
 local function loadModel(model)
     if not lib.requestModel(model, 10000) then
-        error(("Model '%s' kon niet geladen worden"):format(model))
+        error(("Model '%s' could not be loaded"):format(model))
     end
 end
 
