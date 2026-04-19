@@ -1,6 +1,9 @@
 local QBCore = PhoneCore
 local NUIActionCooldowns = {}
 local PlayerData = QBCore.Functions.GetPlayerData()
+
+
+PhoneData = PhoneData or {}
 PhoneData.Invoices = PhoneData.Invoices or {}
 PhoneData.Contacts = PhoneData.Contacts or {}
 
